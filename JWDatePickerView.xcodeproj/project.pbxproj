@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033953C91906270E0080AAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953C81906270E0080AAA9 /* Foundation.framework */; };
+		033953CB1906270E0080AAA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953CA1906270E0080AAA9 /* CoreGraphics.framework */; };
+		033953CD1906270E0080AAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953CC1906270E0080AAA9 /* UIKit.framework */; };
+		033953D31906270E0080AAA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033953D11906270E0080AAA9 /* InfoPlist.strings */; };
+		033953D51906270E0080AAA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033953D41906270E0080AAA9 /* main.m */; };
+		033953D91906270E0080AAA9 /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033953D81906270E0080AAA9 /* JWAppDelegate.m */; };
+		033953DC1906270F0080AAA9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033953DA1906270F0080AAA9 /* Main_iPhone.storyboard */; };
+		033953DF1906270F0080AAA9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033953DD1906270F0080AAA9 /* Main_iPad.storyboard */; };
+		033953E21906270F0080AAA9 /* JWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033953E11906270F0080AAA9 /* JWViewController.m */; };
+		033953E41906270F0080AAA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033953E31906270F0080AAA9 /* Images.xcassets */; };
+		033953EB1906270F0080AAA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953EA1906270F0080AAA9 /* XCTest.framework */; };
+		033953EC1906270F0080AAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953C81906270E0080AAA9 /* Foundation.framework */; };
+		033953ED1906270F0080AAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953CC1906270E0080AAA9 /* UIKit.framework */; };
+		033953F51906270F0080AAA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033953F31906270F0080AAA9 /* InfoPlist.strings */; };
+		033953F71906270F0080AAA9 /* JWDatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033953F61906270F0080AAA9 /* JWDatePickerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033953EE1906270F0080AAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033953BD1906270E0080AAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033953C41906270E0080AAA9;
+			remoteInfo = JWDatePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033953C51906270E0080AAA9 /* JWDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033953C81906270E0080AAA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		033953CA1906270E0080AAA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		033953CC1906270E0080AAA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		033953D01906270E0080AAA9 /* JWDatePickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWDatePickerView-Info.plist"; sourceTree = "<group>"; };
+		033953D21906270E0080AAA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		033953D41906270E0080AAA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033953D61906270E0080AAA9 /* JWDatePickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWDatePickerView-Prefix.pch"; sourceTree = "<group>"; };
+		033953D71906270E0080AAA9 /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
+		033953D81906270E0080AAA9 /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
+		033953DB1906270F0080AAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		033953DE1906270F0080AAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		033953E01906270F0080AAA9 /* JWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWViewController.h; sourceTree = "<group>"; };
+		033953E11906270F0080AAA9 /* JWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWViewController.m; sourceTree = "<group>"; };
+		033953E31906270F0080AAA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		033953E91906270F0080AAA9 /* JWDatePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWDatePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033953EA1906270F0080AAA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		033953F21906270F0080AAA9 /* JWDatePickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWDatePickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		033953F41906270F0080AAA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		033953F61906270F0080AAA9 /* JWDatePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDatePickerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033953C21906270E0080AAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033953CB1906270E0080AAA9 /* CoreGraphics.framework in Frameworks */,
+				033953CD1906270E0080AAA9 /* UIKit.framework in Frameworks */,
+				033953C91906270E0080AAA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033953E61906270F0080AAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033953EB1906270F0080AAA9 /* XCTest.framework in Frameworks */,
+				033953ED1906270F0080AAA9 /* UIKit.framework in Frameworks */,
+				033953EC1906270F0080AAA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033953BC1906270E0080AAA9 = {
+			isa = PBXGroup;
+			children = (
+				033953CE1906270E0080AAA9 /* JWDatePickerView */,
+				033953F01906270F0080AAA9 /* JWDatePickerViewTests */,
+				033953C71906270E0080AAA9 /* Frameworks */,
+				033953C61906270E0080AAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033953C61906270E0080AAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033953C51906270E0080AAA9 /* JWDatePickerView.app */,
+				033953E91906270F0080AAA9 /* JWDatePickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033953C71906270E0080AAA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033953C81906270E0080AAA9 /* Foundation.framework */,
+				033953CA1906270E0080AAA9 /* CoreGraphics.framework */,
+				033953CC1906270E0080AAA9 /* UIKit.framework */,
+				033953EA1906270F0080AAA9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		033953CE1906270E0080AAA9 /* JWDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				033953D71906270E0080AAA9 /* JWAppDelegate.h */,
+				033953D81906270E0080AAA9 /* JWAppDelegate.m */,
+				033953DA1906270F0080AAA9 /* Main_iPhone.storyboard */,
+				033953DD1906270F0080AAA9 /* Main_iPad.storyboard */,
+				033953E01906270F0080AAA9 /* JWViewController.h */,
+				033953E11906270F0080AAA9 /* JWViewController.m */,
+				033953E31906270F0080AAA9 /* Images.xcassets */,
+				033953CF1906270E0080AAA9 /* Supporting Files */,
+			);
+			path = JWDatePickerView;
+			sourceTree = "<group>";
+		};
+		033953CF1906270E0080AAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033953D01906270E0080AAA9 /* JWDatePickerView-Info.plist */,
+				033953D11906270E0080AAA9 /* InfoPlist.strings */,
+				033953D41906270E0080AAA9 /* main.m */,
+				033953D61906270E0080AAA9 /* JWDatePickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		033953F01906270F0080AAA9 /* JWDatePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				033953F61906270F0080AAA9 /* JWDatePickerViewTests.m */,
+				033953F11906270F0080AAA9 /* Supporting Files */,
+			);
+			path = JWDatePickerViewTests;
+			sourceTree = "<group>";
+		};
+		033953F11906270F0080AAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033953F21906270F0080AAA9 /* JWDatePickerViewTests-Info.plist */,
+				033953F31906270F0080AAA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033953C41906270E0080AAA9 /* JWDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033953FA1906270F0080AAA9 /* Build configuration list for PBXNativeTarget "JWDatePickerView" */;
+			buildPhases = (
+				033953C11906270E0080AAA9 /* Sources */,
+				033953C21906270E0080AAA9 /* Frameworks */,
+				033953C31906270E0080AAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWDatePickerView;
+			productName = JWDatePickerView;
+			productReference = 033953C51906270E0080AAA9 /* JWDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		033953E81906270F0080AAA9 /* JWDatePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033953FD1906270F0080AAA9 /* Build configuration list for PBXNativeTarget "JWDatePickerViewTests" */;
+			buildPhases = (
+				033953E51906270F0080AAA9 /* Sources */,
+				033953E61906270F0080AAA9 /* Frameworks */,
+				033953E71906270F0080AAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033953EF1906270F0080AAA9 /* PBXTargetDependency */,
+			);
+			name = JWDatePickerViewTests;
+			productName = JWDatePickerViewTests;
+			productReference = 033953E91906270F0080AAA9 /* JWDatePickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033953BD1906270E0080AAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = joshmlwood;
+				TargetAttributes = {
+					033953E81906270F0080AAA9 = {
+						TestTargetID = 033953C41906270E0080AAA9;
+					};
+				};
+			};
+			buildConfigurationList = 033953C01906270E0080AAA9 /* Build configuration list for PBXProject "JWDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033953BC1906270E0080AAA9;
+			productRefGroup = 033953C61906270E0080AAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033953C41906270E0080AAA9 /* JWDatePickerView */,
+				033953E81906270F0080AAA9 /* JWDatePickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033953C31906270E0080AAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033953DF1906270F0080AAA9 /* Main_iPad.storyboard in Resources */,
+				033953E41906270F0080AAA9 /* Images.xcassets in Resources */,
+				033953DC1906270F0080AAA9 /* Main_iPhone.storyboard in Resources */,
+				033953D31906270E0080AAA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033953E71906270F0080AAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033953F51906270F0080AAA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033953C11906270E0080AAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033953D51906270E0080AAA9 /* main.m in Sources */,
+				033953E21906270F0080AAA9 /* JWViewController.m in Sources */,
+				033953D91906270E0080AAA9 /* JWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033953E51906270F0080AAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033953F71906270F0080AAA9 /* JWDatePickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033953EF1906270F0080AAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033953C41906270E0080AAA9 /* JWDatePickerView */;
+			targetProxy = 033953EE1906270F0080AAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033953D11906270E0080AAA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033953D21906270E0080AAA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		033953DA1906270F0080AAA9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033953DB1906270F0080AAA9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		033953DD1906270F0080AAA9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033953DE1906270F0080AAA9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		033953F31906270F0080AAA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033953F41906270F0080AAA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033953F81906270F0080AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033953F91906270F0080AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033953FB1906270F0080AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDatePickerView/JWDatePickerView-Prefix.pch";
+				INFOPLIST_FILE = "JWDatePickerView/JWDatePickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		033953FC1906270F0080AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDatePickerView/JWDatePickerView-Prefix.pch";
+				INFOPLIST_FILE = "JWDatePickerView/JWDatePickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		033953FE1906270F0080AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JWDatePickerView.app/JWDatePickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDatePickerView/JWDatePickerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JWDatePickerViewTests/JWDatePickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		033953FF1906270F0080AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JWDatePickerView.app/JWDatePickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDatePickerView/JWDatePickerView-Prefix.pch";
+				INFOPLIST_FILE = "JWDatePickerViewTests/JWDatePickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033953C01906270E0080AAA9 /* Build configuration list for PBXProject "JWDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033953F81906270F0080AAA9 /* Debug */,
+				033953F91906270F0080AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033953FA1906270F0080AAA9 /* Build configuration list for PBXNativeTarget "JWDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033953FB1906270F0080AAA9 /* Debug */,
+				033953FC1906270F0080AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		033953FD1906270F0080AAA9 /* Build configuration list for PBXNativeTarget "JWDatePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033953FE1906270F0080AAA9 /* Debug */,
+				033953FF1906270F0080AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033953BD1906270E0080AAA9 /* Project object */;
+}
