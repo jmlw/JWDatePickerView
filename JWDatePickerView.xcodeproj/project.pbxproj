@@ -22,6 +22,7 @@
 		033953ED1906270F0080AAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033953CC1906270E0080AAA9 /* UIKit.framework */; };
 		033953F51906270F0080AAA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033953F31906270F0080AAA9 /* InfoPlist.strings */; };
 		033953F71906270F0080AAA9 /* JWDatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033953F61906270F0080AAA9 /* JWDatePickerViewTests.m */; };
+		03395402190627230080AAA9 /* JWDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03395401190627230080AAA9 /* JWDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		033953F21906270F0080AAA9 /* JWDatePickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWDatePickerViewTests-Info.plist"; sourceTree = "<group>"; };
 		033953F41906270F0080AAA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		033953F61906270F0080AAA9 /* JWDatePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDatePickerViewTests.m; sourceTree = "<group>"; };
+		03395400190627230080AAA9 /* JWDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWDatePickerView.h; sourceTree = "<group>"; };
+		03395401190627230080AAA9 /* JWDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		033953CE1906270E0080AAA9 /* JWDatePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				03395400190627230080AAA9 /* JWDatePickerView.h */,
+				03395401190627230080AAA9 /* JWDatePickerView.m */,
 				033953D71906270E0080AAA9 /* JWAppDelegate.h */,
 				033953D81906270E0080AAA9 /* JWAppDelegate.m */,
 				033953DA1906270F0080AAA9 /* Main_iPhone.storyboard */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				033953D51906270E0080AAA9 /* main.m in Sources */,
+				03395402190627230080AAA9 /* JWDatePickerView.m in Sources */,
 				033953E21906270F0080AAA9 /* JWViewController.m in Sources */,
 				033953D91906270E0080AAA9 /* JWAppDelegate.m in Sources */,
 			);
