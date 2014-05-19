@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JWDatePickerView.xcscheme</key>
+		<key>JWDateTimePicker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>033953C41906270E0080AAA9</key>
+		<key>03FE75781928714C006EF73F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>033953E81906270F0080AAA9</key>
+		<key>03FE75881928714C006EF73F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

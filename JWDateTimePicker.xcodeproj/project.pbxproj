@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FE757D1928714C006EF73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE757C1928714C006EF73F /* Foundation.framework */; };
+		03FE75821928714C006EF73F /* JWDateTimePicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03FE75811928714C006EF73F /* JWDateTimePicker.h */; };
+		03FE75841928714C006EF73F /* JWDateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE75831928714C006EF73F /* JWDateTimePicker.m */; };
+		03FE758B1928714C006EF73F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE758A1928714C006EF73F /* XCTest.framework */; };
+		03FE758C1928714C006EF73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE757C1928714C006EF73F /* Foundation.framework */; };
+		03FE758E1928714C006EF73F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE758D1928714C006EF73F /* UIKit.framework */; };
+		03FE75911928714C006EF73F /* libJWDateTimePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FE75791928714C006EF73F /* libJWDateTimePicker.a */; };
+		03FE75971928714C006EF73F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03FE75951928714C006EF73F /* InfoPlist.strings */; };
+		03FE75991928714C006EF73F /* JWDateTimePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE75981928714C006EF73F /* JWDateTimePickerTests.m */; };
+		03FE75A41928716E006EF73F /* JWDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FE75A31928716E006EF73F /* JWDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FE758F1928714C006EF73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FE75711928714C006EF73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FE75781928714C006EF73F;
+			remoteInfo = JWDateTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03FE75771928714C006EF73F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				03FE75821928714C006EF73F /* JWDateTimePicker.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03FE75791928714C006EF73F /* libJWDateTimePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJWDateTimePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FE757C1928714C006EF73F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03FE75801928714C006EF73F /* JWDateTimePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JWDateTimePicker-Prefix.pch"; sourceTree = "<group>"; };
+		03FE75811928714C006EF73F /* JWDateTimePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDateTimePicker.h; sourceTree = "<group>"; };
+		03FE75831928714C006EF73F /* JWDateTimePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDateTimePicker.m; sourceTree = "<group>"; };
+		03FE75891928714C006EF73F /* JWDateTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWDateTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FE758A1928714C006EF73F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03FE758D1928714C006EF73F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		03FE75941928714C006EF73F /* JWDateTimePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JWDateTimePickerTests-Info.plist"; sourceTree = "<group>"; };
+		03FE75961928714C006EF73F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03FE75981928714C006EF73F /* JWDateTimePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDateTimePickerTests.m; sourceTree = "<group>"; };
+		03FE75A21928716E006EF73F /* JWDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWDatePickerView.h; sourceTree = "<group>"; };
+		03FE75A31928716E006EF73F /* JWDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FE75761928714C006EF73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE757D1928714C006EF73F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FE75861928714C006EF73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE758B1928714C006EF73F /* XCTest.framework in Frameworks */,
+				03FE758E1928714C006EF73F /* UIKit.framework in Frameworks */,
+				03FE758C1928714C006EF73F /* Foundation.framework in Frameworks */,
+				03FE75911928714C006EF73F /* libJWDateTimePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FE75701928714C006EF73F = {
+			isa = PBXGroup;
+			children = (
+				03FE757E1928714C006EF73F /* JWDateTimePicker */,
+				03FE75921928714C006EF73F /* JWDateTimePickerTests */,
+				03FE757B1928714C006EF73F /* Frameworks */,
+				03FE757A1928714C006EF73F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03FE757A1928714C006EF73F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FE75791928714C006EF73F /* libJWDateTimePicker.a */,
+				03FE75891928714C006EF73F /* JWDateTimePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FE757B1928714C006EF73F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FE757C1928714C006EF73F /* Foundation.framework */,
+				03FE758A1928714C006EF73F /* XCTest.framework */,
+				03FE758D1928714C006EF73F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03FE757E1928714C006EF73F /* JWDateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				03FE75811928714C006EF73F /* JWDateTimePicker.h */,
+				03FE75831928714C006EF73F /* JWDateTimePicker.m */,
+				03FE75A21928716E006EF73F /* JWDatePickerView.h */,
+				03FE75A31928716E006EF73F /* JWDatePickerView.m */,
+				03FE757F1928714C006EF73F /* Supporting Files */,
+			);
+			path = JWDateTimePicker;
+			sourceTree = "<group>";
+		};
+		03FE757F1928714C006EF73F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03FE75801928714C006EF73F /* JWDateTimePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03FE75921928714C006EF73F /* JWDateTimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				03FE75981928714C006EF73F /* JWDateTimePickerTests.m */,
+				03FE75931928714C006EF73F /* Supporting Files */,
+			);
+			path = JWDateTimePickerTests;
+			sourceTree = "<group>";
+		};
+		03FE75931928714C006EF73F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03FE75941928714C006EF73F /* JWDateTimePickerTests-Info.plist */,
+				03FE75951928714C006EF73F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FE75781928714C006EF73F /* JWDateTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FE759C1928714C006EF73F /* Build configuration list for PBXNativeTarget "JWDateTimePicker" */;
+			buildPhases = (
+				03FE75751928714C006EF73F /* Sources */,
+				03FE75761928714C006EF73F /* Frameworks */,
+				03FE75771928714C006EF73F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWDateTimePicker;
+			productName = JWDateTimePicker;
+			productReference = 03FE75791928714C006EF73F /* libJWDateTimePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		03FE75881928714C006EF73F /* JWDateTimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FE759F1928714C006EF73F /* Build configuration list for PBXNativeTarget "JWDateTimePickerTests" */;
+			buildPhases = (
+				03FE75851928714C006EF73F /* Sources */,
+				03FE75861928714C006EF73F /* Frameworks */,
+				03FE75871928714C006EF73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FE75901928714C006EF73F /* PBXTargetDependency */,
+			);
+			name = JWDateTimePickerTests;
+			productName = JWDateTimePickerTests;
+			productReference = 03FE75891928714C006EF73F /* JWDateTimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FE75711928714C006EF73F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = joshmlwood;
+			};
+			buildConfigurationList = 03FE75741928714C006EF73F /* Build configuration list for PBXProject "JWDateTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03FE75701928714C006EF73F;
+			productRefGroup = 03FE757A1928714C006EF73F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FE75781928714C006EF73F /* JWDateTimePicker */,
+				03FE75881928714C006EF73F /* JWDateTimePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FE75871928714C006EF73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE75971928714C006EF73F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FE75751928714C006EF73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE75841928714C006EF73F /* JWDateTimePicker.m in Sources */,
+				03FE75A41928716E006EF73F /* JWDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FE75851928714C006EF73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE75991928714C006EF73F /* JWDateTimePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FE75901928714C006EF73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FE75781928714C006EF73F /* JWDateTimePicker */;
+			targetProxy = 03FE758F1928714C006EF73F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03FE75951928714C006EF73F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FE75961928714C006EF73F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FE759A1928714C006EF73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03FE759B1928714C006EF73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FE759D1928714C006EF73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JWDateTimePicker.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDateTimePicker/JWDateTimePicker-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03FE759E1928714C006EF73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JWDateTimePicker.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDateTimePicker/JWDateTimePicker-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		03FE75A01928714C006EF73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDateTimePicker/JWDateTimePicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JWDateTimePickerTests/JWDateTimePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03FE75A11928714C006EF73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JWDateTimePicker/JWDateTimePicker-Prefix.pch";
+				INFOPLIST_FILE = "JWDateTimePickerTests/JWDateTimePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FE75741928714C006EF73F /* Build configuration list for PBXProject "JWDateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FE759A1928714C006EF73F /* Debug */,
+				03FE759B1928714C006EF73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FE759C1928714C006EF73F /* Build configuration list for PBXNativeTarget "JWDateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FE759D1928714C006EF73F /* Debug */,
+				03FE759E1928714C006EF73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03FE759F1928714C006EF73F /* Build configuration list for PBXNativeTarget "JWDateTimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FE75A01928714C006EF73F /* Debug */,
+				03FE75A11928714C006EF73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FE75711928714C006EF73F /* Project object */;
+}

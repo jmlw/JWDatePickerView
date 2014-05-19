@@ -1,18 +1,18 @@
 //
-//  JWDatePickerViewTests.m
-//  JWDatePickerViewTests
+//  JWDateTimePickerTests.m
+//  JWDateTimePickerTests
 //
-//  Created by Josh Wood on 4/21/14.
+//  Created by Josh Wood on 5/17/14.
 //  Copyright (c) 2014 joshmlwood. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface JWDatePickerViewTests : XCTestCase
+@interface JWDateTimePickerTests : XCTestCase
 
 @end
 
-@implementation JWDatePickerViewTests
+@implementation JWDateTimePickerTests
 
 - (void)setUp
 {
